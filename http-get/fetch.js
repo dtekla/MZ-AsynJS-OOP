@@ -1,4 +1,4 @@
-fetch("https://jsonplaceholder.typicode.com/usersr")
+fetch("https://jsonplaceholder.typicode.com/users")
     .then(respones => {
         if (!respones.ok) {
             throw Error(respones.status);
